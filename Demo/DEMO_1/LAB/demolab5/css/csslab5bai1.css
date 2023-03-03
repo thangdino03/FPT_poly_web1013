@@ -1,0 +1,17 @@
+img{
+    width: 16%; /*kích thước ảnh */
+    margin: 2%; /* vùng xung quanh boder */
+    padding: 2%; /*khoảng đệm xung quanh ảnh*/
+    background-color:yellow; /*màu nền khi chưa di chuột vào */
+    border-radius: 10px; /* bo góc  */
+    border: 2px solid lightgray; /* màu đường bao */
+    transition: all 1s; /* thời gian đổ hiệu ứng */
+    filter: grayscale(80%); /* lọc màu khi chưa di chuột vào */
+}
+img:hover{ /* khi di chuột vào */
+    background-color: greenyellow;/*màu nền */
+    box-shadow: -2px -2px 5px 2px lightgray; /*sdùng để làm bóng cho hộp:tạo bóng theo hướng ngang -2px, hướng đứng 2px, độ dày bóng 5px, màu bóng */
+    filter: grayscale(0%); /* hiệu ứng lọc màu, nếu chỉnh 100% thì khi di chuột vào sẽ chuyển thành màu xám*/
+    transform: scale(1.1); /* thay đổi kích thước khi di chuột vào */
+    /*transform: rotate(180deg);/* xoay hình ảnh với 180 độ */
+}

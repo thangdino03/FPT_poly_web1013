@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    background-image: url("images/sv.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+span.text1 {
+    display: block;
+    font-variant: small-caps;
+    color: #fff;
+    text-shadow: 2px 2px 10px red;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container .logo {
+    position: absolute;
+    top: 215px;
+    left: 10px;
+}
+
+nav.menu>ul {
+    list-style: none;
+    display: flex;
+    /* căn theo trục  dọc(cross axis)*/
+    align-items: center;
+    /* căn theo trục  ngang(main axis)*/
+    justify-content: center;
+    background-color: orangered;
+}
+
+nav.menu>ul>li {
+    /* display: inline-block; */
+    padding: 10px;
+}
+
+nav.menu ul li a {
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+nav.menu ul li a:hover {
+    color: yellow;
+}
+
+nav.menu ul li {
+    position: relative;
+}
+
+nav.menu ul li ul {
+    width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    list-style: none;
+    display: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+
+nav.menu ul li ul a {
+    display: block;
+    padding-left: 10px;
+    color: orangered;
+    line-height: 30px;
+
+}
+
+nav.menu ul li ul a:hover {
+    color: #fff;
+    background-color: orangered;
+}
+
+nav.menu ul li:hover ul {
+    display: block;
+}
+
+.content-right {
+    position: absolute;
+    top: 352px;
+    right: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    background-color: #fff;
+    width: 260px;
+
+}
+
+.content-right ul {
+    list-style-type: none;
+}
+
+.content-right .menu-right a {
+    display: block;
+    padding: 9px 8px 9px 30px;
+    background: url("../image/icons8-orange-16.png") no-repeat 10px center;
+    border-bottom: 1px dotted orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: orangered;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 4px double red;
+    text-align: center;
+    font-variant: small-caps;
+    background-color: aquamarine;
+    padding: 20px 0;
+}
+    </style>
+</head>
+<body>
+    <header class="container">
+        <div class="logo">
+            <span class="text1">FPT Polytechnic</span>
+        </div>
+      
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Giới thiệu</a></li>
+            <li>
+                <a href="#">Liên hệ</a>
+                <ul>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Email</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Góp ý</a></li>
+            <li><a href="#">Hỏi đáp</a></li>
+        </ul>
+    </nav>
+    <section class="content-right">
+        <ul class="menu-right">
+            <li><a href="#">Máy tính xách tay</a></li>
+            <li><a href="#">Điện thoại di động</a></li>
+            <li><a href="#">Máy quay phim</a></li>
+            <li><a href="#">Máy chụp ảnh</a></li>
+            <li><a href="#">Tủ lạnh</a></li>
+            <li><a href="#">Đồng hồ đeo tay</a></li>
+            <li><a href="#">Đồng hồ treo tường</a></li>
+            <li><a href="#">Máy giặt</a></li>
+            <li><a href="#">Bàn là</a></li>
+        </ul>
+    </section>
+    <footer>FPT Polytechnic &copy; 2023. All right servered.</footer>
+</body>
+</html>

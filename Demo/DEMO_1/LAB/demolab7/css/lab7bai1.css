@@ -1,0 +1,28 @@
+ul.vmenu{
+    list-style-type: none;
+    /*padding: 0 ;
+      margin: 5px;
+      box-shadow: 0 0 5px orangered;
+      border-radius: 5px;
+
+    */
+}
+ul.vmenu>li{
+    border-bottom: 1px dotted orangered;
+}
+ul.vmenu>li>a{
+    text-decoration: none;
+    line-height: 25px;
+    font-variant: small-caps;
+    color: orangered;
+    padding-left:28px ;
+    background: url(../images/bullet_yellow.png) no-repeat left center;
+    font-size: large;
+}
+ul.vmenu>li>a:hover{
+    text-decoration: underline;
+    color: red;
+    display: block;
+    background: url(../images/bullet_red.png) no-repeat left center;
+    background-color: orange;
+}

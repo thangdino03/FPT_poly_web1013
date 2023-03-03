@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <title>Giới thiệu</title>
+        <link rel="stylesheet" href="css/csstrangchu.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <header>
+
+
+                <img src="images/thpthoanghoatham.png" alt="" class="header1">
+
+
+                <nav>
+                    <div id="current-time">
+
+                        <script>
+                            var curDate = new Date();
+
+                            // Ngày hiện tại
+                            var curDay = curDate.getDate();
+
+                            // Tháng hiện tại
+                            var curMonth = curDate.getMonth() + 1;
+
+                            // Năm hiện tại
+                            var curYear = curDate.getFullYear();
+
+                            // Gán vào thẻ HTML
+                            document.getElementById('current-time').innerHTML = curDay + "/" + curMonth + "/" + curYear;
+                        </script>
+                        <a href="trangchu.html" id="home">Trang chủ</a>
+                        <a href="gioithieu.html" id="profile" style="background-color: aqua;">Giới thiệu </a>
+                        <a href="tintuc.html" id="tintucc">Tin tức - sự kiện </a>
+                        <a href="congvan.html" id="word">Công Văn </a>
+                        <a href="lienHe.html" id="lienhe">Liên hệ </a>
+                    </div>
+                </nav>
+                <article>
+                    <ul class="tinnoibat">
+                        <div class="timkiem">
+                            <input type="text" placeholder="Search here">
+                            <a class="fas fa-search-location"></a>
+
+                        </div>
+                        <fieldset class="tintuc">
+                            <legend>Tin Nổi Bật</legend>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?groupId=264654&vocabularyId=265116&articleId=12516938"></a>Tấm
+                                gương người tốt - việc tốt</li>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?groupId=264654&vocabularyId=265116&articleId=12403310"></a>Sơ
+                                kết học kì 1 </li>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?groupId=264654&vocabularyId=265116&articleId=11855410"></a>Công
+                                Khai dự toán ngân sách</li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </fieldset>
+                        <br>
+                        <fieldset class="tintuc">
+                            <legend>Tin tuyển sinh</legend>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?vocabularyId=265135&categoryId=265136">Kế
+                                    hoạch tuyển sinh</a></li>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?vocabularyId=265135&categoryId=265138">Thông
+                                    báo tuyển sinh</a></li>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?vocabularyId=265135&categoryId=265140">Mẫu
+                                    đơn đăng kí dự tuyển</a></li>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?vocabularyId=265135&categoryId=265142">Danh
+                                    sách dự tuyển</a></li>
+                            <li><a
+                                    href="http://thpthoanghoatham.quangbinh.edu.vn/web/truong-thpt-hoang-hoa-tham/chi-ti%E1%BA%BFt?vocabularyId=265135&categoryId=265144">Kết
+                                    quả tuyển sinh</a></li>
+                        </fieldset>
+                        <br>
+                        <fieldset id="anh">
+                            <img src="images/iconphoto.png" alt="" class="anh">
+                            <a
+                                href="https://kynguyenlamdep.com/wp-content/uploads/2022/01/hinh-anh-meo-con-sieu-cute-768x512.jpg">Thư
+                                viện ảnh</a>
+
+                        </fieldset>
+                        <br>
+                        <fieldset id="video">
+                            <img src="images/iconvideo.png" alt="" class="anh_video1">
+                            <a href="https://youtu.be/nfs8NYg7yQM">Thư viện video</a>
+                        </fieldset>
+                    </ul>
+                </article>
+                <aside class="hometrangchu">
+                    <h2>Giới thiệu</h2>
+                    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/KEWhkj9ucrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                    <h4>1. Lịch sử hình thành</h4>
+                    <p class="gioithieuu">
+                        THPT Hoàng Hoa Thám mới được thành lập cách từ năm 2009. Trường ra đời nhằm phục vụ nhu cầu học
+                        tập của con em trên địa bàn huyện Lệ Thuỷ, tỉnh Quảng Bình. Với tinh thần nâng cao chất lượng
+                        giảng dạy và học tập của các thầy cô giáo cùng toàn thể các em học sinh đã khẳng định vị thế của
+                        trường trên địa bàn. <br>
+                        <br>
+                        Hiện nay trường có địa chỉ tại thôn 2A, thị trấn Lệ Ninh, huyện Lệ Thuỷ, tỉnh Quảng Bình. Ngôi
+                        trường vinh dự mang tên người anh hùng dân tộc Hoàng Hoa Thám luôn đề cao tinh thần học tập.
+                        Thầy và trò nơi đây luôn cố gắng, nỗ lực phát huy hết truyền thống tốt đẹp từ bao đời. Để những
+                        năm tháng cấp 3 sẽ là những kỷ niệm, niềm tự hào của bao lớp người.
+                    </p>
+
+                    <h4>2.Điểm tuyển sinh đầu vào qua các năm</h4>
+                    <p class="gioithieuu">
+                    Từ ngày thành lập cho tới nay, trường THPT Hoàng Hoa Thám luôn tổ chức tuyển sinh vào lớp 10 qua các
+                    năm. Dựa vào kỳ thi tuyển sinh vào lớp 10 trên địa bàn tỉnh. Trường sẽ đưa ra mức điểm tuyển sinh
+                    phù hợp và có sự thay đổi qua các năm. Tuy nhiên mức điểm tuyển sinh đầu vào lớp 10 giữa các năm
+                    không có quá nhiều sự chênh lệch.
+                        <br>
+                    Những năm gần đây trường có mức điểm tuyển sinh khá ổn định cụ thể: Năm học 2020- 2021 mức điểm
+                    tuyển sinh đầu vào lớp 10 là 30,5 điểm; năm học 2021- 2022 mức điểm là 30 điểm.
+                        <br>
+                    Để có những năm học gắn bó với ngôi trường thì ngay từ bây giờ, các em học sinh cần phải lên kế
+                    hoạch học tập thật tốt. Tránh những đáng tiếc có thể xảy ra, bỏ lỡ cơ hội được học tập tại ngôi
+                    trường THPT Hoàng Hoa Thám - Lệ Thuỷ.
+                    </p>
+
+                </aside>
+
+            </header>
+            <footer>
+                <br>
+                <div class="footer1">Mọi chi tiết xin liên hệ</div>
+                <div class="footer2">Trường: Trung Học Phổ Thông Hoàng Hoa Thám</div>
+                <div class="footer3">Địa chỉ: Tổ dân phố 2- Thị trấn Lệ Ninh - Lệ Thủy - Quảng Bình</div>
+                <div class="footer4">Email: thpt_hoanghoatham@quangbinh.edu.vn</div>
+            </footer>
+        </div>
+
+    </body>
+
+    </html>
+</body>
+
+</html>

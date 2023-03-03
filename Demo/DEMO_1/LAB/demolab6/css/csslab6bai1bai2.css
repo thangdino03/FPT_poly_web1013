@@ -1,0 +1,30 @@
+#banner{
+    background-image: url(../images/nenn.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    background-color: #ff4400; padding: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid white;
+    padding: 0 40px;
+}
+#home{
+    border: none;
+}
+section{display: flex;}
+.content-left{
+    width: 70%;height: 200px;border: 2px solid red;
+}
+.content-right{
+    width: 30%; border: 2px solid red;
+}
+footer{
+    text-align: center;font-variant: small-caps;
+    background-color: aquamarine;padding: 20px 0;
+}

@@ -1,0 +1,45 @@
+.me {
+    display: flex; /*giúp trang web được linh hoạt */
+    flex-wrap: wrap; /* tự điều chỉnh cho vừa màn hình các .... */
+}
+
+.con {
+    width: calc(25% - 22px);
+    /*cal là máy tính. kích thước -boder 1px trên dưới là 2px + thêm 20px là 22px */
+    text-align: center;
+    border: 1px solid lightgray; /* đường bao 1px nối liền màu xám */
+    /* màu đường bao */
+    border-radius: 10px;
+    margin-left: 15px;
+    /* phần cách boder bên ngoài */
+    margin-bottom: 10px;
+    /* phần cách bên dưới boder */
+}
+
+img {
+    max-width: 90%;/* thiết lập chiều rộng tối đa cho thành phần. */
+    margin: 0 5%; /* khoảng cách bo bên ngoài trên dưới 0px trái phải 5px */
+}
+
+.gray {
+    color: gray;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: green;
+    /*màu background */
+    padding: 10px 20px;
+    /* khoảng đệm xung quanh. top bottom 10px, left right 20px */
+    border: none;
+    border-radius: 8px;
+    /* bo 4 góc 8px */
+    margin-bottom: 10px;
+    /* khoảng khách phía dưới */
+}
