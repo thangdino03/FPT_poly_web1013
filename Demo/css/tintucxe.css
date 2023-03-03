@@ -1,0 +1,24 @@
+p{
+    text-align: justify;
+}
+.h1-red{
+    color:red;
+}
+#h2-large{
+    text-align: center;
+    color: green;
+}
+.tho1{
+    color: red;
+}
+.tho2{
+    color: blue;
+}
+h2{
+    color: green;
+    text-align: center;
+}
+.tho1 h3, .tho2 h3{
+    color: pink;
+    text-align: left;
+}

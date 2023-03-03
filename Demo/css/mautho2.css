@@ -1,0 +1,19 @@
+body{
+    text-align:center;
+}
+h3{
+    font-family:Arial;
+    font-size:25px;
+    color:white;
+    text-shadow:0 0 2px orangered;
+}
+p{
+    font-variant: small-caps;
+    font-size: larger;
+    color: blue;
+}
+span{
+    color: orangered;
+    font-style: italic;
+    font-weight: bold;
+}

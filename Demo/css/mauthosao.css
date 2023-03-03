@@ -1,0 +1,16 @@
+.doan1{
+    color: red;
+}
+#doan2{
+    color: blue;
+}
+#doan3{
+    color: green;
+}
+p{
+    font-style: italic;
+}
+
+body{
+    border: 5px solid green;
+}
