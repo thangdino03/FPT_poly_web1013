@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 2 - Grid</title>
+    <style>
+        .container{
+                display: grid;
+                grid-template-columns: 600px 150px;
+                grid-template-rows: 150px 150px 150px;
+                gap: 10px;
+            }
+        .video1{
+            grid-area: 1/1/4/2;
+            width: 100%;
+        }
+        img{width: 100%; height: 150px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video1">
+            <iframe width="600" height="470" src="https://www.youtube.com/embed/HsgTIMDA6ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="anh1">
+            <img src="images/cinnamon_300x300.jpg" alt="">
+        </div>
+        <div class="anh3">
+            <img src="images/chayote_300x300.jpg" alt="">
+        </div>
+        <div class="anh3">
+            <img src="images/chickpeas_300x300.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>

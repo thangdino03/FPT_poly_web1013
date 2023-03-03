@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        tr{transition: all 1.5s;}
+        th, td{
+            padding: 10px 30px; text-align: center;
+        }
+        tr:first-child{background-color: green;}
+        tr:nth-child(even){background-color: orange;} /*even là chẵn */
+        td:nth-child(odd){color: red;} /* odd là lẻ */
+        tr:hover{
+            background-color: aqua;
+            box-shadow:  1px 1px 2px gray, -0.5px 1px 2px lightcoral;
+        }
+        
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>STT</th>
+            <th>Tên</th>
+            <th>Tuổi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Hóa</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Nam</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Nam</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Nam</td>
+            <td>14</td>
+        </tr>
+    </table>
+</body>
+</html>
