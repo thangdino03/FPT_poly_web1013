@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .images>img{
+            height: 200px;
+            box-shadow: 0 0 5px blue; /*bóng */
+            border-radius: 10px 0 10px 0;/* bo góc*/
+            margin: 10px;/*lề để các ảnh cách nhau*/
+            padding: 10px;/*khoảng đệm */
+        }
+        .buttons>button{
+            background-color: white;
+            border-radius: 40px;
+            border: 0px;
+            outline: none;
+            box-shadow: inset 0 0 20px blue;
+            padding: 5px 20px;
+        }
+        .buttons>button:hover{
+            box-shadow: inset 0 0 20px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="images">
+        <img src="images/received_829661071354847.jpeg" />
+        <img src="images/received_829661071354847.jpeg" />
+        <img src="images/received_829661071354847.jpeg" />
+    </div>
+    <div class="buttons">
+        <button>OK</button>
+        <button>Cancel</button>
+    </div>
+</body>
+</html>

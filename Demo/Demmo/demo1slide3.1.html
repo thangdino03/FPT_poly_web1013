@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Box model</title>
+    <style>
+        .box{
+            border: 1px solid red;/* đường bao */
+            width: 150px; /*kích thước */
+            height: 150px;/*kích thước */
+            padding: 20px; /*khoảng không gian ở giữa boder và nội dung */
+            margin: 10px; /* */
+            border-radius: 10px;/*bo góc hộp*/
+            box-shadow: -5px -5px 5px blue;/* đặt bóng */
+            background-image: url(images/received_829661071354847.jpeg);/*ảnh nền */
+            background-size: 100% 100%; /*điiều chỉnh kích thước ảnh nền */
+        }
+        .box>img{
+            width: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        Box 1
+        <img src="images/ufo.gif">
+    </div>
+    <div class="box">
+        Box 2
+    </div>
+</body>
+</html>
