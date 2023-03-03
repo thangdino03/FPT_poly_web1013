@@ -1,0 +1,396 @@
+header a .anhheader {
+   width: 100%;
+   /* background-image: url(../images/thpthoanghoatham.png); */
+   /* padding-bottom: 15%; */
+   /* background-size: 100% 100%; */
+
+}
+
+* {
+   /* định dạng cho tất cả */
+   margin: 0px;
+   padding: opx;
+}
+
+body {
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: black;
+}
+
+/* kế thúc header (1-4) + css chung */
+
+nav {
+   height: 40px;
+   background: #0D9FD0;
+   margin-bottom: 5px;
+}
+nav .taskbar{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+nav ul {
+   display: flex;
+   /* height: 40px;
+    background: #0D9FD0;
+    margin: ; */
+   list-style: none;
+}
+
+nav ul li {
+   /* float: left; */
+   padding: 0 25px;
+   border-right: 1px solid gray;
+}
+
+nav ul li:hover {
+   background: red;
+}
+
+/* phần nút điều khiển  */
+nav ul li a {
+
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+   color: white;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   line-height: 40px;
+}
+
+/* nav.tkiem{
+    
+    float: right;
+    line-height: 40px;
+} */
+nav .tkiem a {
+   /* margin-bottom: 20px; */
+   padding: 8px;
+   color: white;
+   /* display: inline-block; */
+   text-decoration: none; 
+   /* margin-left: 42%; */
+   font-size: 18px;
+   /* border-radius: 5px 0 0 5px; */
+   /* margin-top: 10px; */
+   /* border: none;
+    outline: none; */
+   /* margin: 0px; */
+   /* padding: 8px 20px; */
+   /* width: 250px; */
+ } 
+
+nav .tkiem a:hover {
+   background: red;
+}
+
+/* chỉnh video  */
+.center iframe {
+   padding: 10px;
+   text-align: center;
+}
+
+/* nav.tkiem  a{
+    
+    padding: 7px 10px;
+    border: none;
+    background: violet;
+    color: white;
+    margin-left: -5px;
+    
+} */
+/* .chaomung{
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.425);
+    color: white;
+}
+.chaomung p{
+    text-align: center;
+}
+.chaomung button{
+    float: right;
+    margin-top: -28px;
+    
+} */
+/* .ttin{
+    float: right;
+    margin-bottom: 200px;
+}
+.ttin button{
+    margin-top: -200px;
+} */
+/* kết thúc nav  */
+
+
+.chuchay {
+   position: relative;
+   margin-bottom: 5px;
+}
+
+/* nội dung  */
+.noidungg {
+   display: flex;
+
+   margin: 0px 2px;
+   /* padding: 0 20px; */
+   border: 1px solid black;
+   /* height: 999px; */
+   background-color: whitesmoke;
+}
+
+.noidungrightne {
+   padding: 1px 10px;
+}
+
+.center {
+   display: flex;
+
+}
+
+.center .c1 a {
+   text-decoration: none;
+}
+
+.center img {
+   padding: 5px;
+   width: 29%;
+}
+
+.noidungrightne a:hover {
+   color: rgba(255, 0, 0, 0.847);
+}
+
+/* sang aside  */
+aside {
+   /* float: left; */
+   width: 300px;
+   bordfer-left: 1px gray solid;
+}
+
+h3 {
+   font-size: 18px;
+   padding: 10px 15px;
+   background: #0D9FD0;
+   color: white;
+   text-shadow: 2px 2px 5px gray;
+}
+
+.menudoc ul {
+   list-style: none;
+
+}
+
+.menudoc ul li {
+   margin-left: -13%;
+   padding: 7px 0px;
+   background-color: white;
+   border-top: 1px solid gray;
+}
+
+.menudoc ul li:hover {
+   background: rgba(255, 0, 0, 0.877);
+}
+
+/* footêr  */
+footer {
+   display: flex;
+   width: 100%;
+   clear: both;
+   background: #0D9FD0;
+   color: white;
+}
+
+.ft1 {
+   margin-left: 5%;
+   /* float: left; */
+   width: 400px;
+   margin-bottom: 25px;
+}
+
+.ft2 {
+   margin-left: 2%;
+   float: right;
+}
+
+.ft2 h3 {
+   text-align: center;
+}
+
+footer h3 {
+   padding: 15px;
+   font-size: 20px;
+}
+
+.ft3 {
+   width: 100%;
+   clear: both;
+   height: 40px;
+   background: #0D9FD0;
+}
+
+.ft3 p {
+   color: white;
+   font-size: 15px;
+   font-variant: small-caps;
+   text-align: center;
+}
+
+div.ftimgne {
+   padding: 8px;
+   margin-left: 60px;
+   width: 260px;
+   height: 80px;
+}
+
+div.ftimg1 {
+   width: 500px;
+   height: 80px;
+}
+
+footer .ft2 .ft21 {
+   padding: 5px;
+   text-align: center;
+
+}
+
+/* chỉnh màu khi đang ở trang  */
+
+nav ul li a.taitrangchu {
+   color: rgb(242, 255, 0);
+}
+
+/* xong trang chủ  */
+
+
+
+/* trang Giới THIỆU  */
+.gioithieune {
+   text-align: center;
+   padding: 25px;
+   color: red;
+}
+
+.noidungrightne h5 {
+   padding: 20px;
+   font-size: 15px;
+}
+
+.noidungrightne p {
+   padding: 15px;
+}
+
+/* tin tức  */
+.center .anhtintuc {
+   padding: 5px;
+   width: 20%;
+}
+
+.chuchay .text {
+   background-color: rgb(229, 226, 226);
+   color: red;
+}
+
+
+/* tin tức  */
+.noidungrightne .dt {
+   /* font-size: 40%; */
+   display: inline-block;
+   padding: 15px;
+   margin: 5px 0 10px 1000px;
+   border-radius: 20px;
+   box-shadow: inset 0 0 20px #449eff;
+   border: none;
+   background-color: #B4E4FF;
+   color: #749F82;
+   box-shadow: #557153;
+}
+
+.noidungrightne .dt:hover {
+   background: rgba(225, 36, 36, 0.771);
+}
+
+.noidungrightne .dt a {
+   text-decoration: none;
+   color: rgb(37, 37, 37)
+}
+
+
+/* công văn  */
+
+.noidungrightne table {
+   border-collapse: collapse;
+}
+
+.noidungrightne thead {
+   text-align: center;
+}
+
+.noidungrightne tbody {
+   text-align: justify;
+   text-align: center;
+}
+
+.noidungrightne td {
+   padding: 8px 4px
+}
+
+.noidungrightne td:nth-child(odd) {
+   color: black;
+}
+
+tbody td a {
+   text-decoration: none;
+}
+
+table {
+   /* margin-top: 2%; */
+   margin: 2% 3%;
+}
+
+/* liên hệ  */
+.noidunglienhe {
+   margin: 0px 20px;
+   padding: 20px;
+   border: 1px solid black;
+   height: 1000px;
+   background-color: whitesmoke;
+}
+
+.noidunglienhe h4 {
+
+   font-size: 25px;
+   padding: 5px;
+   /* background-color:#749F82; */
+   /* color: #fff; */
+}
+
+.noidunglienhe a {
+   font-size: 17px;
+   text-decoration: none;
+   /* color: #DC0000; */
+}
+
+.noidunglienhe a:hover {
+   color: #DC0000;
+}
+
+/* .noidunglienhe a:hover{color: red;} */
+.noidunglienhe ul li {
+   list-style-type: none;
+   padding: 1%;
+}
+
+.noidunglienhe .bandone {
+   padding: 2%;
+   margin-left: 10%;
+}
+.noidunglienhe .like{
+   padding-top: 2%;
+   margin-left: 50px;
+}
+.noidunglienhe ul li .facebookne{
+   width: 30px;
+   /* margin-top: 029px; */
+}
